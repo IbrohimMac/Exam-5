@@ -27,7 +27,7 @@ function showCountry(data) {
 <img src="${data.flags.png}" alt="${"country's flag"}" />
 </div>
 <div class="country-in">
-  <h5 class="countryFname">${data.name.common}</h5>
+  <h2 class="countryFname">${data.name.common}</h2>
   <p><b>Population</b> ${data.population}</p>
   <p class="regionName"><b>Region:</b> ${data.region}</p>
   <p><b>Capital</b> ${data.capital}</p>
