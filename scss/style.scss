@@ -90,15 +90,20 @@ header {
     }
   }
   .modalCountry {
+    color: white !important;
     background-color: #202c36;
     transition: 0.9s ease-out;
     .back {
       svg path {
-        fill: white;
+        fill: rgb(0, 0, 0);
         transition: 0.9s ease-out;
       }
-      color: white;
-      background-color: black;
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      transition: 0.9s ease-out;
+    }
+    p {
+      color: #fff !important;
       transition: 0.9s ease-out;
     }
   }
