@@ -306,8 +306,46 @@ header nav .darkk .dark-p {
     margin-left: 100px;
   }
 }
+@media only screen and (max-width: 590px) {
+  .firstM {
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+  }
+  .inModal {
+    position: relative;
+    left: -340px;
+    top: 350px;
+  }
+}
 @media only screen and (max-width: 480px) {
   .BigDrop {
     margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .firstM {
+    position: relative;
+    left: 70px;
+  }
+  .inModal {
+    position: relative;
+    left: -290px;
+  }
+  .inModal b {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .firstM {
+    position: relative;
+    left: 80px;
+  }
+  .inModal {
+    position: relative;
+    left: -250px;
+  }
+  .inModal b {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
