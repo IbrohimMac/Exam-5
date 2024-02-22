@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif !important;
 }
 .container {
   width: 100%;
   padding: 30px;
 }
-
+body {
+  transition: 0.9s ease-out;
+  header {
+    transition: 0.9s ease-out;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -21,6 +27,7 @@ header {
     justify-content: space-between;
     h1 {
       font-family: sans-serif;
+      margin-left: 15px;
     }
     .darkk {
       background: transparent;
@@ -29,9 +36,14 @@ header {
       gap: 10px;
       align-items: center;
       cursor: pointer;
+      margin-right: 20px;
       .dark-p {
         font-family: sans-serif;
         font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
       }
     }
   }
@@ -72,8 +84,8 @@ header {
     }
   }
   .search {
-    i {
-      color: black;
+    svg path {
+      fill: black;
       transition: 0.9s ease-out;
     }
   }
@@ -139,9 +151,9 @@ header {
       border: none;
       font-size: 22px;
     }
-    i {
+    svg {
       position: absolute;
-      top: 20px;
+      top: 14px;
       right: 14px;
     }
   }
@@ -151,7 +163,7 @@ header {
   justify-content: space-evenly;
   padding: 0px 30px;
   display: flex;
-  gap: 70px;
+  gap: 20px;
   // justify-content: space-between;
   flex-wrap: wrap;
   .country {
@@ -304,7 +316,7 @@ header {
   padding: 30px;
   .back {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 60px;
     background-color: #ddd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);

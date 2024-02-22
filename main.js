@@ -116,7 +116,7 @@ function showCountryDetail(data) {
           <p><b>Sub-region: </b> ${data.subregion}</p>
           <div class="borderCountries">
           <p><b>Capital: </b> ${data.capital}</p>
-          <p><b>Border Countries:</b>${data.borders}</p>
+          <p><b>Border Countries: </b>${data.borders}</p>
           </div>
         </div>
         <div class="innerRight inner">
