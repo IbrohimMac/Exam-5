@@ -154,6 +154,52 @@ header nav .darkk .dark-p {
 .countries .country .country-img img {
   min-width: 350px;
   max-height: 200px;
+  cursor: pointer;
+}
+
+.bigDrop {
+  margin-left: 20px;
+  width: 200px;
+  position: relative;
+}
+.bigDrop .minidrop {
+  width: 200px;
+  padding: 17px 14px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: -22px;
+}
+.bigDrop .minidrop p {
+  font-family: sans-serif;
+  margin-top: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.bigDrop .minidrop i {
+  cursor: pointer;
+}
+.bigDrop .dropP {
+  font-family: sans-serif;
+  font-size: 16px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  top: 70px;
+  padding: 20px 14px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  margin-left: -22px;
+}
+
+.dropPed {
+  display: none;
 }
 
 .BigDrop {

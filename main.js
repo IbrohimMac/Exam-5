@@ -2,6 +2,8 @@ const modeBtn = document.querySelector(".darkk");
 const countriesElem = document.querySelector(".countries");
 const miniDrop = document.querySelector(".miniDrop");
 const dropElem = document.querySelector(".drop-p");
+const miniDr = document.querySelector(".minidrop");
+const dropEl = document.querySelector(".dropP");
 const region = document.querySelectorAll(".region");
 const search = document.querySelector(".searchIn");
 const toggle = document.querySelector(".toggle");
@@ -20,7 +22,8 @@ getCountry();
 function showCountry(data) {
   const country = document.createElement("div");
   country.classList.add("country");
-  country.innerHTML = `<div class="country-img">
+  country.innerHTML = `
+  <div class="country-img">
 <img src="${data.flags.png}" alt="${"country's flag"}" />
 </div>
 <div class="country-in">
@@ -28,7 +31,9 @@ function showCountry(data) {
   <p><b>Population</b> ${data.population}</p>
   <p class="regionName"><b>Region:</b> ${data.region}</p>
   <p><b>Capital</b> ${data.capital}</p>
-  </div>`;
+  </div>
+
+  `;
   countriesElem.appendChild(country);
   country.addEventListener("click", () => {
     showCountryDetail(data);
@@ -52,6 +57,16 @@ region.forEach((element) => {
     });
   });
 });
+
+////////////////
+
+/////////// SORT ////////////////////
+
+miniDr.addEventListener("click", () => {
+  dropEl.classList.toggle("dropPed");
+});
+
+///////////////
 
 ////////////////  SEARCH /////////////////
 const countryFname = document.getElementsByClassName("countryFname");
