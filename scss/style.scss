@@ -98,6 +98,24 @@ header {
     color: white;
     transition: 0.9s ease-out;
   }
+  .minidrop {
+    background-color: white;
+    transition: 0.9s ease-out;
+    p {
+      color: black;
+      transition: 0.9s ease-out;
+    }
+    svg path {
+      fill: black;
+      transition: 0.9s ease-out;
+    }
+  }
+  .dropP {
+    p {
+      color: black;
+      transition: 0.9s ease-out;
+    }
+  }
 }
 
 .first-big {
@@ -203,6 +221,16 @@ header {
     cursor: pointer;
     margin-left: -22px;
   }
+  .reg:hover {
+    // background-color: #202c36;
+    color: #4f5960;
+    font-size: 17px;
+    transition: 0.4s;
+  }
+}
+.minidrop:hover {
+  background-color: rgb(226, 225, 225);
+  transition: 0.5s;
 }
 .dropPed {
   display: none;
@@ -248,7 +276,18 @@ header {
     background-color: white;
     cursor: pointer;
     margin-left: -22px;
+    padding-left: 20px;
   }
+  .region:hover {
+    // background-color: #202c36;
+    color: #4f5960;
+    font-size: 17px;
+    transition: 0.4s;
+  }
+}
+.miniDrop:hover {
+  background-color: rgb(226, 225, 225);
+  transition: 0.5s;
 }
 .dropped {
   display: none;

@@ -96,6 +96,22 @@ header nav .darkk .dark-p {
   color: white;
   transition: 0.9s ease-out;
 }
+.dark .minidrop {
+  background-color: white;
+  transition: 0.9s ease-out;
+}
+.dark .minidrop p {
+  color: black;
+  transition: 0.9s ease-out;
+}
+.dark .minidrop svg path {
+  fill: black;
+  transition: 0.9s ease-out;
+}
+.dark .dropP p {
+  color: black;
+  transition: 0.9s ease-out;
+}
 
 .first-big {
   margin: 15px;
@@ -197,6 +213,16 @@ header nav .darkk .dark-p {
   cursor: pointer;
   margin-left: -22px;
 }
+.bigDrop .reg:hover {
+  color: #4f5960;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.minidrop:hover {
+  background-color: rgb(226, 225, 225);
+  transition: 0.5s;
+}
 
 .dropPed {
   display: none;
@@ -240,6 +266,17 @@ header nav .darkk .dark-p {
   background-color: white;
   cursor: pointer;
   margin-left: -22px;
+  padding-left: 20px;
+}
+.BigDrop .region:hover {
+  color: #4f5960;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.miniDrop:hover {
+  background-color: rgb(226, 225, 225);
+  transition: 0.5s;
 }
 
 .dropped {
