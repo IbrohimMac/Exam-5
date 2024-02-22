@@ -171,6 +171,7 @@ header {
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
     .country-in {
       font-family: sans-serif;
       gap: 10px;
@@ -314,9 +315,10 @@ header {
   height: 100%;
   background-color: #fff;
   padding: 30px;
+  padding-top: 280px;
   .back {
     position: absolute;
-    top: 100px;
+    top: 130px;
     left: 60px;
     background-color: #ddd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
